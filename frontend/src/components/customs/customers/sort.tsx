@@ -11,11 +11,11 @@ const Sort = () => {
           className='p-2 bg-inherit rounded-md border'
         >
           <option value=""> Country </option>
-          <option value="Morocco">Morocco</option>
-          <option value="Mozambique">Mozambique</option>
-          <option value="Uganda">Uganda</option>
-          <option value="Ethiopia">Ethiopia</option>
-          <option value="Cameroon">Cameroon</option>
+          <option value="Morocco">Morocco (+212) </option>
+          <option value="Mozambique">Mozambique (+258) </option>
+          <option value="Uganda">Uganda (+256)</option>
+          <option value="Ethiopia">Ethiopia (+251)</option>
+          <option value="Cameroon">Cameroon (+237)</option>
         </select>
     
 
