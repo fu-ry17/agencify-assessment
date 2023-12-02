@@ -12,6 +12,9 @@
 ### Database
 - **SQLite**
 
+### Source Code
+[GitHub Repository](https://github.com/fu-ry17/agencify-assessment)
+
 ## Installation (Both Server & Frontend)
 
 1 . To set up the server and frontend, follow the steps below:
@@ -31,7 +34,7 @@
     pnpm dev
     ```
 
-2. Using Docker (run this in the root directory)
+2 . Using Docker (run this in the root directory)
  ```bash
    docker-compose -f docker-compose.dev.yml up --build -d
  ```
@@ -69,7 +72,6 @@
         "country": "Uganda",
         "state": "valid"
       },
-      // More customers
     ]
     ```
 
