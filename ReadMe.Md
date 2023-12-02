@@ -38,6 +38,9 @@
  ```bash
    docker-compose -f docker-compose.dev.yml up --build -d
  ```
+ ``` bash 
+   docker ps -a # check all the running containers and the ports
+ ```
 
 ## API Endpoints
 
