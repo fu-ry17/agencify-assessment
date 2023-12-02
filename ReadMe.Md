@@ -42,6 +42,11 @@
    docker ps -a # check all the running containers and the ports
  ```
 
+3 . Running Tests
+```bash
+  pnpm test
+```
+
 ## API Endpoints
 
 ### Health Check
