@@ -1,0 +1,14 @@
+# syntax=docker/dockerfile:1.2
+FROM node:18-alpine
+# intall pnpm
+RUN npm i -g pnpm@latest
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN pnpm install
+
+COPY . .
+
+CMD [ "pnpm", "dev" ]

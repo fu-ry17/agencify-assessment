@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+# install pnpm
+RUN npm i -g pnpm@latest
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN pnpm install
+
+COPY . .
+
+EXPOSE 5173
+
+CMD [ "pnpm", "dev" ]
