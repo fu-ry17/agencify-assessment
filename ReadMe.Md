@@ -44,6 +44,7 @@
 
 3 . Running Tests
 ```bash
+  cd server
   pnpm test
 ```
 
